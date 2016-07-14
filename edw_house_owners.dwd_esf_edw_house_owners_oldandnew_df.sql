@@ -6,7 +6,7 @@
 ------------------------------------ Change Log -------------------------------------------
 -- Date Generated   Updated By     Description
 -------------------------------------------------------------------------------------------
--- 2016-06-15       Li Jiang     Initial Version
+-- 2016-07-05       Li Jiang     Initial Version
 -- ========================================================================================
 
 alter table edw_house_owners.dwd_esf_edw_house_owners_oldandnew_df drop if exists partition (dt='${dt}');
